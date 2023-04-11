@@ -1,0 +1,146 @@
+<html>
+<head>
+<title>Menu horizontal d�roulant 4 niveaux</title>
+<style type="text/css">
+/********* menu niveau 1  *********/
+div#menu ul{
+    list-style-type: none;
+    width: 605px;
+    margin: 0 auto;
+    padding: 0px;
+}
+div#menu ul li {
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    float: left;
+    width: 150px;
+    text-align: center;
+    background-color: #ffffaa;
+    position: relative;
+}
+div#menu ul li:first-child {
+    border-left: 1px solid black;
+}
+div#menu a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+div#menu a:hover {
+    background-color: white;
+    color: red;
+}
+
+/******** menu niveau 2   *******/
+div#menu ul li ul {
+    position: absolute;
+    left: -1px;
+    width: 100%;
+    display: none;
+}
+div#menu ul li ul li {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 0px;
+
+}
+div#menu ul li ul li:first-child {
+    border-top: 1px solid black;
+}
+div#menu ul li:hover ul {
+    display: block;
+}
+
+/******** menu niveau 3   ******/
+div#menu ul li ul li ul{;}
+div#menu ul li ul li:hover ul {;}
+
+/******** menu niveau 4 ****/
+div#menu ul li ul li:hover ul li ul{;}
+div#menu ul li ul li ul li:hover ul {;}
+</style>
+</head>
+<body>
+<div id="menu">
+ <ul>
+   
+    <li><a href="#">Membres</a>
+        <ul>
+            <li><a href="#">Nous joindre</a></li>
+            <li><a href="#">Programmes</a></li>
+            <li><a href="#">Carte réseau national</a></li>
+            <li><a href="#">Support</a></li>
+        </ul>
+    </li>
+	<li><a href="#">Clients</a>
+        <ul>
+            <li><a href="#">Nos Services</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Nos plus</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Nouvelles</a></li>
+        </ul>
+    </li>
+    <li><a href="#">Distributeurs</a>
+        <ul>
+            <li><a href="#">Bénéficiaires</a></li>
+            <li><a href="#">Programmation</a></li>
+            <li><a href="#">Renouveau</a></li>
+            <li><a href="#">Questions?</a></li>
+        </ul>
+    </li>
+    <li><a href="#">Vendeurs</a>
+        <ul>
+            <li><a href="#">Productions</a></li>
+            <li><a href="#">Coin des vendeurs</a></li>
+            <li><a href="#">Commissions</a></li>
+            <li><a href="#">Clients</a></li>
+        </ul>
+
+    </li>
+ </ul>
+</div>
+
+<!--
+<ul>
+        <li><a href="#">Nous joindre</a></li>
+        <li><a href="#">Programmes</a></li>
+        <li><a href="#">Carte r�seau national</a></li>
+        <li><a href="#">Support</a></li>
+</ul>
+<ul>
+        <li><a href="#">Nos Services</a></li>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Nos plus</a></li>
+        <li><a href="#">Support</a></li>
+		<li><a href="#">Nouvelles</a></li>
+</ul> 
+<ul>
+        <li><a href="#">Productions</a></li>
+        <li><a href="#">Coin des vendeurs</a></li>
+        <li><a href="#">Commissions</a></li>
+        <li><a href="#">Clients</a></li>
+</ul>
+<ul>
+        <li><a href="#">B�n�ficiaires</a></li>
+        <li><a href="#">Programmation</a></li>
+        <li><a href="#">Renouveau</a></li>
+        <li><a href="#">Questions?</a></li>
+</ul>
+<ul> 
+        <li><a href="#">C�te Ouest</a></li>
+        <li><a href="#">R�gions montagneuses</a></li>
+        <li><a href="#">Region centre</a></li>
+        <li><a href="#">C�te Est</a></li>
+</ul>
+<ul>
+        <li><a href="#">Programme Or</a></li>
+        <li><a href="#">Programme Argent</a></li>
+        <li><a href="#">Programme Bronze</a></li>
+        <li><a href="#">Par R�gion</a></li>
+</ul>
+ -->
+</body>
+</html>

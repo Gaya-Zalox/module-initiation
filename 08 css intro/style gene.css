@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+    color: blue;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+    background-color: yellow;
+    letter-spacing: 10px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 1cm;
+}
+
+.bleu {
+    color: teal;
+    font-family: "Comic Sans MS";
+    text-indent: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+div#bloc p:first-letter {
+    color: red;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.important {
+    color: red;
+    font-variant: all-small-caps;
+    text-decoration: underline;
+}
+
+div#bloc {
+    margin-left: 4cm;
+    margin-right: 4cm;
+    background-color: beige;
+}
+
+body {
+    margin-left: 2cm;
+    margin-right: 2cm;
+}

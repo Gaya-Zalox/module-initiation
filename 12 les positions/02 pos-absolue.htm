@@ -1,0 +1,71 @@
+<html>
+<head>
+	<title> La position absolue</title>
+<style type="text/css">
+/*
+-l'objet positionné en absolue perd sa place
+-il est positionné par rapport a son premier pere positionné
+-BODY est le pere de la page entiere
+-BODY est concidéré comme positionnée
+*/
+p {text-align:justify;}
+h1 {color:red;
+	text-align:center;}
+.P1 {background-color:beige;}
+.P2 {
+	background-color:lightgreen;
+	width: 200px;
+}
+.P3 {
+	background-color:pink;
+	position: absolute;
+	top: 12px;
+	left: 150px;
+
+}
+.P4 {background-color:aqua;}
+.P5 {background-color:teal;
+	color:white;}
+img {width:150px;}
+
+div#bloc{
+	background-color: aquamarine;
+	position: relative;
+}
+</style>
+</head>
+<body>
+<h1>Isaac Newton</h1>
+<p class="p1">Isaac Newton (4 janvier 1643 G – 31 mars 1727 G, ou 25 décembre 1642 J – 20 mars 1727 J)N 1 est un philosophe, 
+mathématicien, physicien, alchimiste, astronome et théologien anglais, puis britannique. Figure emblématique 
+des sciences, il est surtout reconnu pour avoir fondé la mécanique classique, pour sa théorie de la gravitation 
+universelle et la création, en concurrence avec Gottfried Wilhelm Leibniz, du calcul infinitésimal. En optique, 
+il a développé une théorie de la couleur basée sur l'observation selon laquelle un prisme décompose la lumière 
+blanche en un spectre visible. Il a aussi inventé le télescope à réflexion composé d'un miroir primaire concave 
+appelé télescope de Newton.</p>
+<div id="bloc">
+<ul type="square">
+	<li>Lundi</li>
+	<li>Mardi</li>
+	<li>Mercredi</li>
+	<li>Jeudi</li>
+	<li>Vendredi</li>
+	<li>Samedi</li>
+	<li>Dimanche</li>
+</ul>
+<p class="p2">En mécanique, il a établi les trois lois universelles du mouvement qui sont en fait des principes à la base de la 
+grande théorie de Newton concernant le mouvement des corps, théorie que l'on nomme aujourd'hui « mécanique newtonienne » 
+ou encore « mécanique classique ».</p>
+<p class="p3">Il est aussi connu pour la généralisation du théorème du binôme et l'invention dite de la méthode de Newton permettant
+de trouver des approximations d'un zéro (ou racine) d'une fonction d'une variable réelle à valeurs réelles.</p>
+</div>
+
+<p class="p4">Newton a montré que le mouvement des objets sur Terre et des corps célestes sont gouvernés par les mêmes lois naturelles ;
+en se basant sur les lois de Kepler sur le mouvement des planètes1, il développa la loi universelle de la gravitation.</p>
+<img src="css.jpg">
+<p class="p5">Son ouvrage Philosophiæ Naturalis Principia Mathematica2,3, écrit en 1686, est considéré comme une œuvre majeure dans 
+l'histoire de la science. C'est dans celui-ci qu'il décrit la loi universelle de la gravitation dont Ibn Al Haitham a tracé les contours, formule les trois lois 
+universelles du mouvement et jette les bases de la mécanique classique. Il a aussi effectué des recherches dans les domaines 
+de la théologie et l'alchimie.</p>
+</body>
+</html>

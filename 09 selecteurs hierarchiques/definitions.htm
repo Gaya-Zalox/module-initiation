@@ -1,0 +1,71 @@
+<html>
+<head>
+	<title> Les sélecteurs hiérarchiques</title>
+<style type="text/css">
+	p {
+		text-align:justify;
+		background-color:beige;
+	}
+	h1 {
+		color:red;
+		text-align:center;
+	}
+	p u {
+		color: blue;
+	}
+	p b i {
+		color: red;
+	}
+	ol {
+		color: green;
+	}
+	ol li:first-child {
+		color:blue;
+	}
+	ul li:last-child{
+		color: lightcoral;
+	}
+	ol li:last-child {
+		color: red;
+	}
+
+</style>
+</head>
+<body>
+
+<h1>Isaac Newton</h1>
+
+<p class="p1">
+	<u>Isaac Newton</u>
+	(4 janvier 1643 G – 31 mars 1727 G, ou 25 décembre 1642 J – 20 mars 1727 J)N 1 est un philosophe,
+mathématicien, physicien, alchimiste, astronome et théologien anglais, puis britannique. Figure emblématique 
+des sciences, il est surtout reconnu pour avoir fondé la mécanique classique, pour sa théorie de la gravitation 
+universelle et la création, en concurrence avec <b><i>Gottfried Wilhelm Leibniz</i></b>, du calcul infinitésimal. En optique,
+il a développé une théorie de la couleur basée sur l'observation selon laquelle un prisme décompose la lumière 
+blanche en un spectre visible. Il a aussi inventé le télescope à réflexion composé d'un miroir primaire concave 
+appelé télescope de Newton.
+</p>
+
+<ul type="square">
+	<li>Lundi</li>
+	<li>Mardi</li>
+	<li>Mercredi</li>
+	<ol>
+		<li>Lundi</li>
+		<li>Mardi</li>
+		<li>Mercredi</li>
+		<li>Jeudi</li>
+		<li>Vendredi</li>
+		<ul>
+			<li>Samedi</li>
+			<li>Dimanche</li>
+		</ul>
+	</ol>
+	<li>Jeudi</li>
+	<li>Vendredi</li>
+	<li>Samedi</li>
+	<li>Dimanche</li>
+</ul>
+
+</body>
+</html>
